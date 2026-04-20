@@ -12,6 +12,7 @@ public class UseCase13PalindromeCheckerApp {
         }
 
         return text.equals(reversed);
+
     }
 
     // Method 2: Stack Method
@@ -54,4 +55,5 @@ public class UseCase13PalindromeCheckerApp {
         System.out.println("Stack Method Result: " + result2);
         System.out.println("Execution Time: " + (end2 - start2) + " ns");
     }
+
 }
